@@ -1,0 +1,280 @@
+
+body {
+    background-color: aquamarine;
+	margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: #e2dedb;
+    color: #b3aca7;
+}
+
+header {
+    background-image:url(pict7.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+ol {
+   font-family: cursive;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+p {
+    padding: 20px;
+    font-family: cursive;
+}
+
+.nav {
+    height: 60px;
+    color: brown;
+}
+
+.flex {
+    font-family: cursive;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-navi {
+    border-bottom: 1px solid;
+    
+}
+
+
+.flex li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font font-family: cursive;
+    font-size: 20px;
+}
+
+.flex li a:hover {
+    border: 2px solid white;
+}
+
+.covers-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 10.5px;
+}
+
+.covers-item {
+	width: calc(33.3333% - 15px);
+	margin: 5px 5.5px 0;
+	
+}
+
+.covers-item img {
+	width: 60%;
+	display: block;
+}
+
+.covers-item h2 {
+	padding: 5px 4px 3px;
+	margin: 0;
+	font-weight: 150;
+	font-size: 20px;
+	color: #000;
+}
+
+
+.img-container {
+    display: flex;
+}
+
+.img {
+    padding: 5px 4px 3px;
+}
+
+.covers-item {
+    background: url(bigsidebar.png);
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.gallery {
+    font-family: sans-serif;
+    margin: 10px 100px;
+    
+    
+}
+.gallery2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 25px;
+    width: 320px;
+}
+
+.gallery img: hover {
+    filter:  grayscale(100%);
+    transform: scale(1.1);
+}
+
+.video {
+    border: 25px;
+    padding: 65px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.head {
+    padding: 10px;
+    position: relative
+    font-size: 30px;
+    font-family: cursive;
+    font-style:italic;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 2.35em;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 10px;
+    line-height: 2em;
+}
+.head2 {
+    padding: 10px 5px 5px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 2.35em;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 10px;
+    line-height: 2em;
+    position: relative;
+    text-align: left;
+    letter-spacing: px;
+}
+
+.covers-item {
+    outline: inherit;
+}
+
+.head3 {
+    width: 100%;
+    padding: 10px 5px 5px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 2.35em;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 10px;
+    line-height: 2em;
+}
+
+.head4 {
+    padding: 10px 5px 5px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 2.35em;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 10px;
+    line-height: 2em;
+}
+
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: cursive;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: cursive;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: cursive;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
